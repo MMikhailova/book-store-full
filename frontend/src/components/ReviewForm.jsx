@@ -38,10 +38,6 @@ function Copyright(props) {
 const defaultTheme = createTheme();
 
 const ReviewForm = ({book}) => {
-    const [update, setUpdate] = useState(false)
-    if (book) {
-        setUpdate(true)
-    }
     const parts = document.cookie.split('=');
 
     // Access the second part which contains the number
